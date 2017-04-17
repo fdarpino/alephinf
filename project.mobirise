@@ -582,7 +582,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/facebook-cover-2000x760.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/facebook-cover-2000x759.png",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
