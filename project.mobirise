@@ -190,7 +190,7 @@
             }
           },
           "title": "UN ECOMMERCE CONSOLIDATO",
-          "text": "Virtuemart è una piattaforma eCommerce ormai consolidata e utilizzabile con un CMS quale joomla che la rende veramnete professionale.",
+          "text": "Virtuemart è una piattaforma eCommerce ormai consolidata e utilizzabile con un CMS quale joomla che la rende veramente professionale.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -275,8 +275,8 @@
           },
           "_anchor": "features6-5",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "3",
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
