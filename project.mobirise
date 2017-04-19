@@ -25,7 +25,9 @@
     "uniqCompNum": 26,
     "versionPublish": "3.12.1",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "ecommerce": {
@@ -43,6 +45,14 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#e10b0b"
+            },
+            ".mbr-section-lead": {
+              "color": "#fac51c"
+            }
+          },
           "_anchor": "header1-0",
           "_params": {
             "parallax": true,
@@ -65,15 +75,7 @@
           },
           "title": "Virtuemart &amp; Gestionale 1",
           "text": "Primo tassello di una serie di attività che ci porteranno ad integrare il Gestionale 1 con tutte le più utilizzate piattaforme di Ecommerce",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#e10b0b"
-            },
-            ".mbr-section-lead": {
-              "color": "#fac51c"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_inherit": "header2",
@@ -196,6 +198,17 @@
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            "P": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "22px"
+            }
+          },
           "_anchor": "msg-box5-c",
           "_params": {
             "imageSize": "46",
@@ -242,18 +255,7 @@
           },
           "title": "<br>ORA INSIEME &nbsp;IN UN'INTEGRAZIONE PERFETTA",
           "text": "Abbiamo messo insieme le funzionalità del Gestionale1 per alimentare la soluzione Virtuemart.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            "H3": {
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
-            },
-            "P": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "22px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "_inherit": "features3",
@@ -261,6 +263,16 @@
             "Theme"
           ],
           "_name": "features6",
+          "_styles": {
+            "H4": {
+              "color": "#ffffff",
+              "font-size": "18px"
+            },
+            "P": {
+              "color": "#232323",
+              "font-size": "18px"
+            }
+          },
           "_anchor": "features6-5",
           "_params": {
             "paddingTop": 2,
@@ -373,23 +385,21 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_styles": {
-            "H4": {
-              "color": "#ffffff",
-              "font-size": "18px"
-            },
-            "P": {
-              "color": "#232323",
-              "font-size": "18px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "testimonials1",
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "font-size": "22px"
+            },
+            ".card-block P": {
+              "font-size": "22px"
+            }
+          },
           "testimonial": [
             {
               "text": "<p>“Abbiamo iniziato ad usare entrambe le piattaforme con immensa soddisfazione, ora possiamo dedicarci a curare la nostra politica commerciale all'inetrno del gestionale con la certezza che i nostri prodotti online vengano immediatamente aggiornati e che le scorte e disponibilità Online siano gestite anche offline”</p>",
@@ -424,6 +434,10 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
+            "count": "2",
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
@@ -433,22 +447,10 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": true,
-            "count": "2",
-            "showImages": true,
-            "showName": true,
-            "showBio": true
+            "showSubtitle": true
           },
           "title": "L'ESPERIENZA DEI NOSTRI CLIENTI",
-          "subtitle": "Le opinioni dei nostri fantastici clienti .",
-          "_styles": {
-            ".mbr-section-subtitle": {
-              "font-size": "22px"
-            },
-            ".card-block P": {
-              "font-size": "22px"
-            }
-          }
+          "subtitle": "Le opinioni dei nostri fantastici clienti ."
         },
         {
           "_inherit": "header1",
@@ -485,6 +487,14 @@
             "Theme"
           ],
           "_name": "content7",
+          "_styles": {
+            "P": {
+              "font-size": "22px",
+              "text-align": "left",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
           "_anchor": "content7-g",
           "_params": {
             "paddingTop": 1,
@@ -493,15 +503,7 @@
           },
           "text1": "<p><b>COMUNICAZIONE</b></p><p><b><br></b></p><p>L'integrazione avviene senza scambio di file CSV, XLS, TXT etc.. ma attraverso la comunicazione diretta delle due basi dati.</p><p>Le due basi dati vengono integrate dall'APP e sincronizzate ad intervalli prestabiliti (Giorni, ore, minuti o secondi) garantendo un'integrazione perfetta ed affidabile.</p><p>Pieno controllo dello stato di integrazione con possibilità di selezionare tutte o alcune delle componenti da integrare avendo sempre visione di ciò che è sincronizzato.</p><p><br></p>",
           "text2": "<p><b>AUTOMAZIONE</b></p><p><b><br></b></p><p>E' possibile sincronizzare le condizioni di pagamento, i codici IVA, i Vettori, le categorie merceologiche dei prodotti (Con riproduzione della struttura ad albero), i prodotti, i listini ed i prezzi in varie configurazioni previste dal <b><i>Gestionale 1</i></b> ed implementabili in <b><i>Virtuemart</i></b>..</p><p>La sincronizzazione è parametrizzabile ovvero si può scegliere se sincronizzare ciò che è fisicamente presente in magazzino o l'intero catalogo dei prodotti, ciò che appartiene a determinate categorie ed escludere tutto ciò che non ha un prezzo tra quelli selezionati.</p>",
-          "text3": "<p><b>INTERNAZIONALIZZAZIONE</b></p><p><b><br></b></p><p>L'APP consente l'esportazione di tutti i contenuti in file XML che possono essere passati a servizi online o a specifiche entità che ne possono eseguire la traduzione e restituire il dato in XML permettendone l'importazione automatica.</p><p>Non esiste limite alle lingue gestibili.</p><p>Nelle impostazioni è possibile gestire tutta la messaggistica di scambio con il cliente traducendo testi ed oggetto delle mail automaticamente inviate in tutte le lingue.</p><p><br></p>",
-          "_styles": {
-            "P": {
-              "font-size": "22px",
-              "text-align": "left",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            }
-          }
+          "text3": "<p><b>INTERNAZIONALIZZAZIONE</b></p><p><b><br></b></p><p>L'APP consente l'esportazione di tutti i contenuti in file XML che possono essere passati a servizi online o a specifiche entità che ne possono eseguire la traduzione e restituire il dato in XML permettendone l'importazione automatica.</p><p>Non esiste limite alle lingue gestibili.</p><p>Nelle impostazioni è possibile gestire tutta la messaggistica di scambio con il cliente traducendo testi ed oggetto delle mail automaticamente inviate in tutte le lingue.</p><p><br></p>"
         },
         {
           "_inherit": "header1",
@@ -577,6 +579,14 @@
             "Theme"
           ],
           "_name": "header4",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fac51c"
+            },
+            ".mbr-section-lead": {
+              "color": "#e10b0b"
+            }
+          },
           "_anchor": "header4-o",
           "_params": {
             "parallax": true,
@@ -599,21 +609,21 @@
           },
           "title": "IN ARRIVO....",
           "text": "Stiamo lavorando alacremente per replicare quanto fatto con Virtuemart ed integrare il Gestionale1 con le altre piattaoforme eCommerce, Magento, Prestashop e Woocommerce. Restate sintonizzati",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#fac51c"
-            },
-            ".mbr-section-lead": {
-              "color": "#e10b0b"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            "SMALL": {
+              "font-size": "22px"
+            }
+          },
           "_anchor": "form1-n",
           "_params": {
             "labelsColor": "#232323",
@@ -659,15 +669,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SPEDISCI</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            "SMALL": {
-              "font-size": "22px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SPEDISCI</a>"
         }
       ]
     }
